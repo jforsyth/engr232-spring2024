@@ -1,2 +1,2 @@
-# STEM-Sensors
-Repo for Center for STEM Education and Outreach activity
+# ENGR232 - Spring 2024
+Repo for ENGR 232 - Engineering Design II
