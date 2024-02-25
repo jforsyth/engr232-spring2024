@@ -19,7 +19,7 @@ void loop()
   int value = analogRead(ANALOG_PIN);
 
   // Print out the value to the serial monitor
-  Serial.print("Analog Reading is: "); Serial.println(value);
+  Serial.print("Digital Reading is: "); Serial.println(value);
 
   // delay 200ms so the program doesn't spam the terminal
   delay(200);
