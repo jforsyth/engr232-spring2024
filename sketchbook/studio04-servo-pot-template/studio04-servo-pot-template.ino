@@ -42,7 +42,7 @@ void loop()
   // your code here
 
   // Step 4: read the servo position
-  int servo_pos= // your code here
+  //int servo_pos= // your code here
 
   // Step 5: use an IF-ELSE statement to turn on the LED when the servo
   // is at its maximum limit of either 0 or 180 degrees. Otherwise, turn it OFF.
