@@ -15,7 +15,7 @@ void setup() {
 void loop() 
 {
   
-  // Read from the input pin and print the value
+  // Read from the input pin and store in the variable value
   int value = analogRead(ANALOG_PIN);
 
   // Print out the value to the serial monitor
