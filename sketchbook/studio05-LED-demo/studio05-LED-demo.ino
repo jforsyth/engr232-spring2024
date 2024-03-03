@@ -1,9 +1,4 @@
-/**
- * Define a variable for each pin
- */
-const int LED1_PIN = 9;
-const int LED2_PIN = 10;
-const int LED3_PIN = 11;
+
 
 void setup() 
 {
@@ -12,9 +7,9 @@ void setup()
    * Set each pin as an OUTPUT so it can drive
    * the LED
    */
-  pinMode(LED1_PIN,OUTPUT);
-  pinMode(LED2_PIN,OUTPUT);
-  pinMode(LED3_PIN,OUTPUT);
+  pinMode(9,OUTPUT);
+  pinMode(10,OUTPUT);
+  pinMode(11,OUTPUT);
 
 }
 
@@ -23,9 +18,9 @@ void loop()
   /**
    * Turn on each LED 
    */
-  digitalWrite(LED1_PIN,HIGH);
-  digitalWrite(LED2_PIN,HIGH);
-  digitalWrite(LED3_PIN,HIGH);
+  digitalWrite(9,HIGH);
+  digitalWrite(10,HIGH);
+  digitalWrite(11,HIGH);
 
   // wait 1s
   delay(1000);
@@ -33,9 +28,9 @@ void loop()
   /**
    * Turn off each LED
    */
-  digitalWrite(LED1_PIN,LOW);
-  digitalWrite(LED2_PIN,LOW);
-  digitalWrite(LED3_PIN,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(11,LOW);
 
   // wait 1s
   delay(1000);
