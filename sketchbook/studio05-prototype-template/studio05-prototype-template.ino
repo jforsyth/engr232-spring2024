@@ -125,9 +125,8 @@ void loop()
   // An example of an IF-ELSE statement is provided below that turns on the LED connected to pin 9. This should be
   // adapted for the sensor value of interest.
   int dummy_sensor_reading = 10;
-  int dummy_threshold = 20;
 
-  if(dummy_sensor_reading > dummy_threshold)
+  if(dummy_sensor_reading > 20)
   {
     digitalWrite(9,HIGH);
   }
