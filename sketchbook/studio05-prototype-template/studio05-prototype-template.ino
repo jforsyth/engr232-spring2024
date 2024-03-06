@@ -71,6 +71,9 @@ void setup()
     }
   }
 
+  pinMode(LED1_PIN, OUTPUT);
+  pinMode(LED2_PIN, OUTPUT);
+  pinMode(LED3_PIN, OUTPUT);
 } // of method setup()
 
 // duration in milliseconds for how long the loop shoudl iterate
